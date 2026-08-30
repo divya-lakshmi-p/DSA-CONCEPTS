@@ -1,23 +1,21 @@
 1. What is Two Pointers?
 
-Two Pointers = use two indexes to scan/manage an array or string without repeatedly checking the same elements.
+        Two Pointers = use two indexes to scan/manage an array or string without repeatedly checking the same elements.
 
-int left = 0;
-int right = n - 1;
+        int left = 0;
+        int right = n - 1;
 
-The pointers can move:
-
-Opposite direction →  L →       ← R
-Same direction     →  L → 
-                      R →
+        The pointers can move:
+          Opposite direction →  L →       ← R
+          Same direction     →  L → R →
 Main goal
 
-Reduce unnecessary/repeated work.
+        Reduce unnecessary/repeated work.
 
 Usually:
 
-Brute force → O(n²)
-Two pointers → O(n)
+        Brute force → O(n²)
+        Two pointers → O(n)
 2. Core idea
 
 Do NOT remember only:
